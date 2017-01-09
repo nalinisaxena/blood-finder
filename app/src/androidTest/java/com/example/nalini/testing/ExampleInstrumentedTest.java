@@ -22,5 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.nalini.testing", appContext.getPackageName());
+        //to test github
     }
 }
