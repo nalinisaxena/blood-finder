@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.nalini.testing", appContext.getPackageName()); //to test conflict from second
-        //to test github
+        //to test github by neha
     }
 }
