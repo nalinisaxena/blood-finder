@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/holo_red_light"
+    android:background="#FFFFFF"
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
@@ -16,7 +16,10 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Donner"
+            android:backgroundTint="#DB160D"
+            android:textColor="#FFFFFF"
             android:textAllCaps="false"
+
             android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
@@ -28,6 +31,8 @@
         <Button android:id="@+id/btnneeder"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#DB160D"
+            android:textColor="#FFFFFF"
             android:text="Needer"
             android:textAllCaps="false"
             android:layout_centerHorizontal="true"/>
