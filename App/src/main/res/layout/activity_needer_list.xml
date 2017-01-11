@@ -1,0 +1,27 @@
+<RelativeLayout android:id="@+id/activity_needer_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <RelativeLayout
+        android:id="@+id/reldonnerlist"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="30sp"
+            android:text="Donner List"/>
+    </RelativeLayout>
+
+    <ListView android:id="@+id/listView"
+        android:layout_below="@id/reldonnerlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+</ListView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "154954487883",
+    "firebase_url": "https://blood-finder-f6970.firebaseio.com",
+    "project_id": "blood-finder-f6970",
+    "storage_bucket": "blood-finder-f6970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154954487883:android:ffef66b78578c422",
+        "android_client_info": {
+          "package_name": "com.example.nalini.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154954487883-qvvllmjsqmalkrqqsgjdb8r5pi06ff0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nalini.testing",
+            "certificate_hash": "238A1008CB5817A556241DF2B7DD7C02C53F8883"
+          }
+        },
+        {
+          "client_id": "154954487883-j5pj042f7ad2g4a5q27i2h6qo5i6tdhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2H1f2pWajwDcfpjSFMof4xd280Z36TI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154954487883-j5pj042f7ad2g4a5q27i2h6qo5i6tdhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
