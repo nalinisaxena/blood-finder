@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         //blood finder
 
+        //hiii baby
+
     }
 }
