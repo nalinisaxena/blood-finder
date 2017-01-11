@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "154954487883-c14q8rt4nqad8hagdch17sph7k19cb2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nalini.testing",
+            "certificate_hash": "6E22F703C351E76AF087FE4DECF64D9E79B1A6E5"
+          }
+        },
+        {
           "client_id": "154954487883-qvvllmjsqmalkrqqsgjdb8r5pi06ff0k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
