@@ -33,7 +33,7 @@ public class donner_login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donner_login);
 
-       // getSupportActionBar().setTitle("");
+        getSupportActionBar().setTitle("Donner");
 
 
         etxtemail = (EditText) findViewById(R.id.etxtemail);
