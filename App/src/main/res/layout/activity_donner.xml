@@ -146,7 +146,7 @@
                android:layout_height="wrap_content"
                android:layout_marginTop="31dp"
                android:layout_marginLeft="5dp"
-               android:src="@drawable/ic_people_outline_black_24dp"/>
+               android:src="@drawable/email"/>
 
 
            <EditText
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_people_outline_black_24dp"/>
+                android:src="@drawable/security"/>
 
 
 
@@ -215,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_phone_android_black_24dp">
+                android:src="@drawable/phone">
 
             </ImageView>
 
