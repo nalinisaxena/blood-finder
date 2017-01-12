@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_people_outline_black_24dp"/>
+                android:src="@drawable/ic_view_week_black_24dp"/>
 
 
 
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_people_outline_black_24dp"/>
+                android:src="@drawable/ic_person_black_24dp"/>
 
             <EditText android:id="@+id/etxtusername"
                     android:layout_width="match_parent"
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/security"/>
+                android:src="@drawable/ic_vpn_lock_black_24dp"/>
 
 
 
@@ -195,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/ic_people_outline_black_24dp"/>
+                android:src="@drawable/ic_vpn_lock_black_24dp"/>
 
             <EditText
                     android:id="@+id/etxtrepassword"
@@ -216,7 +216,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="31dp"
                 android:layout_marginLeft="5dp"
-                android:src="@drawable/phone">
+                android:src="@drawable/ic_call_black_24dp">
 
             </ImageView>
 
