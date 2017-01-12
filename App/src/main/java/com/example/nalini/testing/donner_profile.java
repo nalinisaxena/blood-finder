@@ -24,6 +24,8 @@ public class donner_profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donner_profile);
 
+        getSupportActionBar().setTitle("Donate Blood");
+
         dpname = (TextView) findViewById(R.id.dpname);
         dpdob = (TextView) findViewById(R.id.dpdob);
         dpusername = (TextView) findViewById(R.id.dpusername);

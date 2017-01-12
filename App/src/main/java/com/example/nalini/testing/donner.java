@@ -28,6 +28,8 @@ public class donner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donner);
 
+        getSupportActionBar().setTitle("Donate Blood");
+
 
         etxtname = (EditText) findViewById(R.id.etxtname);
         etxtdob = (EditText) findViewById(R.id.etxtdob);
