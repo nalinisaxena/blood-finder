@@ -79,6 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/relativegrp"
             android:hint="Password"
+            android:textColorHint="#C71E29"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
@@ -91,6 +92,7 @@
         android:layout_marginTop="30dp"
         android:layout_margin="30dp"
         android:text="Sign In"
+        android:textAllCaps="false"
         android:background="@android:color/holo_orange_light"
         android:textSize="25sp"/>
 
