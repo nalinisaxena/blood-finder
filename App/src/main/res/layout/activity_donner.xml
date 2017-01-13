@@ -13,7 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
         android:layout_marginTop="10dp"
-        android:textColor="#000000"/>
+        android:textColor="#C71E29"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,6 +49,7 @@
                     android:layout_marginLeft="40dp"
                     android:layout_alignParentLeft="true"
                     android:text="@string/blood_group"
+                    android:textColor="#C71E29"
                     android:textSize="20sp"/>
 
                 <Spinner
@@ -82,6 +83,7 @@
                     android:hint="Name"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
+                   android:textColorHint="#C71E29"
                     android:layout_marginRight="20dp"/>
 
            </LinearLayout>
@@ -105,6 +107,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Date of Birth"
                     android:inputType="date"
+                android:textColorHint="#C71E29"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"/>
@@ -128,6 +131,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Username (must be unique)"
+                android:textColorHint="#C71E29"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"/>
@@ -155,6 +159,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+               android:textColorHint="#C71E29"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
@@ -182,6 +187,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
+                android:textColorHint="#C71E29"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"/>
 
@@ -202,6 +208,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Re-Password"
+                android:textColorHint="#C71E29"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"/>
@@ -225,6 +232,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Contact"
+                android:textColorHint="#C71E29"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"/>
