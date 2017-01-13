@@ -25,6 +25,8 @@ public class needer_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_needer_list);
 
+        getSupportActionBar().setTitle("Needer");
+
         Bundle extra = getIntent().getExtras();
         group = extra.getString("group");
 

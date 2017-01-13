@@ -22,6 +22,8 @@ public class needer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_needer);
 
+        getSupportActionBar().setTitle("Need Blood");
+
 
         btnsearch = (Button) findViewById(R.id.btnsearch);
         spinner = (Spinner) findViewById(R.id.spinner);
