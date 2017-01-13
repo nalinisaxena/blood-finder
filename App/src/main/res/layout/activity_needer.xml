@@ -14,21 +14,21 @@
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
         android:layout_marginTop="10dp"
-        android:textColor="#000000"/>
+        android:textColor="#C71E29"/>
 
     <TextView android:id="@+id/txtbloodlist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Blood Groups"
         android:layout_gravity="left"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:layout_marginTop="45dp"
         android:layout_marginLeft="25dp"
-        android:textColor="@android:color/holo_orange_light"/>
+        android:textColor="#C71E29"/>
 
     <Spinner android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="60dp"
         android:layout_marginRight="20dp"
         android:layout_alignParentRight="true">
@@ -41,7 +41,9 @@
         android:layout_marginTop="30dp"
         android:layout_margin="30dp"
         android:text="Search"
-        android:background="@android:color/holo_orange_light"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#C71E29"
         android:textSize="25sp"/>
 
 </LinearLayout>
