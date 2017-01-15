@@ -101,6 +101,8 @@
                 android:src="@drawable/ic_view_week_black_24dp"/>
 
 
+
+
                 <EditText android:id="@+id/etxtdob"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -110,6 +112,12 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"/>
+
+                <DatePicker
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:id="@+id/datePicker"
+                    />
 
 
 
@@ -263,6 +271,33 @@
 
         </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbox"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtChk"
+                    android:textColor="#000000"
+                    android:text="I am okay to receive calls after 10pm"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="please be responsible and cautious of any inapproriate incident if you choose to donate blood at night"/>
+
             <Button
                 android:id="@+id/btnsubmit"
                 android:layout_width="match_parent"
@@ -274,6 +309,8 @@
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#C71E29"
                 android:textSize="25sp"/>
+
+
 
         </LinearLayout>
     </ScrollView>
