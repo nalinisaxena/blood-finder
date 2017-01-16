@@ -78,11 +78,11 @@
 
 
                <EditText android:id="@+id/etxtname"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:hint="Name"
-                   android:maxLines="1"
-                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                   android:layout_marginTop="15dp"
                     android:layout_marginLeft="20dp"
                    android:textColorHint="#C71E29"
                     android:layout_marginRight="20dp"/>

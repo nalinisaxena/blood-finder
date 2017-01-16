@@ -79,6 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/relativegrp"
             android:hint="Password"
+            android:inputType="textPassword"
             android:textColorHint="#C71E29"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"

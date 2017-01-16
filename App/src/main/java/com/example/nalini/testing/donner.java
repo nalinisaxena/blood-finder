@@ -70,13 +70,67 @@ public class donner extends AppCompatActivity {
             public void onClick(View v) {
 
                 String uname = etxtname.getText().toString();
+
+                if (uname.length() == 0) {
+                    etxtname.setError("Name not entered");
+                    etxtname.requestFocus();
+                    return;
+                }
                 String udob = etxtdob.getText().toString();
+
+                if (udob.length() == 0) {
+                    etxtdob.setError("DOB not entered");
+                    etxtdob.requestFocus();
+                    return;
+                }
                 String uemail = etxtemail.getText().toString();
+
+                if (uemail.length() == 0) {
+                    etxtemail.setError("Email not entered");
+                    etxtemail.requestFocus();
+                    return;
+                }
+
                 String uusername = etxtusername.getText().toString();
+                if (uusername.length() == 0) {
+                    etxtusername.setError("UserName not entered");
+                    etxtusername.requestFocus();
+                    return;
+                }
                 String upassword = etxtpassword.getText().toString();
+                if (upassword.length() == 0) {
+                    etxtpassword.setError("Password not entered");
+                    etxtpassword.requestFocus();
+                    return;
+                }
                 String urepassword = etxtrepassword.getText().toString();
+
+                if (urepassword.length() == 0) {
+                    etxtrepassword.setError("Re-Password not entered");
+                    etxtrepassword.requestFocus();
+                    return;
+                }
+                if (!etxtpassword.getText().toString().equals(etxtrepassword.getText().toString())) {
+                    etxtpassword.setError("Password Not matched");
+                    etxtrepassword.requestFocus();
+                    return;
+                }
                 String ucontact = etxtcontact.getText().toString();
+
+                if (ucontact.length() == 0) {
+                    etxtcontact.setError("Contact not entered");
+                    etxtcontact.requestFocus();
+                    return;
+                }
+
+
                 String ulocation = etxtlocation.getText().toString();
+
+                if (ulocation.length() == 0) {
+                    etxtlocation.setError("Location not entered");
+                    etxtlocation.requestFocus();
+                    return;
+                }
 
 
                 String key = uusername;
