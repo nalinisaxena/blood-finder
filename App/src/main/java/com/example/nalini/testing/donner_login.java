@@ -43,7 +43,7 @@ public class donner_login extends AppCompatActivity {
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-        getSupportActionBar().setTitle("Donner");
+//        getSupportActionBar().setTitle("Donner");
 
 
         etxtemail = (EditText) findViewById(R.id.etxtemail);

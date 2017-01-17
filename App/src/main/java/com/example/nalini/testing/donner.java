@@ -42,7 +42,7 @@ public class donner extends AppCompatActivity {
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-        getSupportActionBar().setTitle("Donate Blood");
+//        getSupportActionBar().setTitle("Donate Blood");
 
         etxtname = (EditText) findViewById(R.id.etxtname);
         etxtdob = (EditText) findViewById(R.id.etxtdob);

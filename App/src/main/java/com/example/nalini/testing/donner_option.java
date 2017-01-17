@@ -28,7 +28,7 @@ public class donner_option extends AppCompatActivity {
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-        getSupportActionBar().setTitle("Donner");
+//        getSupportActionBar().setTitle("Donner");
 
 
         btnlogin = (Button) findViewById(R.id.btnlogin);

@@ -1,5 +1,6 @@
 package com.example.nalini.testing;
 
+import android.app.ActionBar;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Handler;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
         if (android.os.Build.VERSION.SDK_INT >= 21) {
             Window window = this.getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
@@ -42,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
+
+       //  getSupportActionBar().hide();
+
 
     }
 
@@ -74,11 +80,6 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
 
   }
-
-
-
-
-
 
 }
 
