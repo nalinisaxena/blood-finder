@@ -36,7 +36,7 @@ public class needer_list extends AppCompatActivity {
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-//        getSupportActionBar().setTitle("Needer");
+      getSupportActionBar().setTitle("Needer");
 
         Bundle extra = getIntent().getExtras();
         group = extra.getString("group");

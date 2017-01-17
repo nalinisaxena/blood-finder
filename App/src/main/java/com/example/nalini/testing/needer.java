@@ -36,7 +36,7 @@ public class needer extends AppCompatActivity {
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-//        getSupportActionBar().setTitle("Need Blood");
+        getSupportActionBar().setTitle("Need Blood");
 
 
         btnsearch = (Button) findViewById(R.id.btnsearch);
