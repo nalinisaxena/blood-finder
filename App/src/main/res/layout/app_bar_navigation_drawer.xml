@@ -17,7 +17,20 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme" />
+            app:popupTheme="@style/AppTheme" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="Blood Finder"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:paddingTop="13dp"
+                android:layout_marginLeft="3dp"/>
+
+            </android.support.v7.widget.Toolbar>
+
 
     </android.support.design.widget.AppBarLayout>
 

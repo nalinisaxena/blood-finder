@@ -30,7 +30,6 @@ public class NavigationDrawer extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
 
-      //  getSupportActionBar().setTitle("Blood Donner");
 
         if (android.os.Build.VERSION.SDK_INT >= 21) {
             Window window = this.getWindow();
@@ -38,6 +37,9 @@ public class NavigationDrawer extends AppCompatActivity
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
+
+//        getSupportActionBar().setTitle("Blood Finder");
+
 
         btnNext = (Button) findViewById(R.id.btnNext);
 
