@@ -12,21 +12,20 @@
 
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/main"/>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save Life"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#C71E29"
+        android:text="Save Life"
+        android:textColor="#FFFFFF"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
-        android:backgroundTint="#DB160D"
-        android:textColor="#FFFFFF"/>
+        android:fontFamily="sans-serif"/>
 
 </RelativeLayout>

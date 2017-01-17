@@ -10,30 +10,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
     <Button
             android:id="@+id/btndonner"
-            android:layout_width="250dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Donner"
             android:layout_weight="1"
-            android:layout_margin="70dp"
+
             android:backgroundTint="#DB160D"
             android:textSize="20sp"
             android:textColor="#FFFFFF"
             android:textAllCaps="false"
-            android:layout_centerHorizontal="true"/>
+            />
 
         <Button android:id="@+id/btnneeder"
-            android:layout_width="250dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#DB160D"
             android:textColor="#FFFFFF"
-            android:layout_margin="70dp"
+            android:layout_weight="1"
             android:textSize="20sp"
             android:text="Needer"
-            android:textAllCaps="false"
-            android:layout_centerHorizontal="true"/>
+            android:textAllCaps="false"/>
+
+
     </LinearLayout>
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/option"/>
 </RelativeLayout>
