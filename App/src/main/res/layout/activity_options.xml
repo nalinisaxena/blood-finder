@@ -1,9 +1,29 @@
-<RelativeLayout android:id="@+id/activity_options"
+<LinearLayout android:id="@+id/activity_options"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Blood Finder"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingTop="13dp"
+            android:layout_marginLeft="3dp"/>
+
+    </android.support.v7.widget.Toolbar>
 
 
 
@@ -42,4 +62,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/option"/>
-</RelativeLayout>
+</LinearLayout>
