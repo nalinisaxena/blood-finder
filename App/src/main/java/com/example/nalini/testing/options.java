@@ -8,12 +8,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class options extends AppCompatActivity {
+public class options extends AppCompatActivity
+{
 
     private Button btndonner, btnneeder;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
 

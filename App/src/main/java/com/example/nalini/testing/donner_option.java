@@ -11,12 +11,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class donner_option extends AppCompatActivity {
+public class donner_option extends AppCompatActivity
+{
 
     private Button btnregister, btnlogin;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donner_option);
 
