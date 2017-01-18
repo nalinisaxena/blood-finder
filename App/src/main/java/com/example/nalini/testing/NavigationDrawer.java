@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -24,6 +25,10 @@ public class NavigationDrawer extends AppCompatActivity
 
     private Button btnNext;
 
+    FragmentTransaction fragmentTransaction;
+    DrawerLayout drawer;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +43,7 @@ public class NavigationDrawer extends AppCompatActivity
             window.setStatusBarColor(this.getResources().getColor(R.color.colorRed));
         }
 
-//        getSupportActionBar().setTitle("Blood Finder");
+     //   getSupportActionBar().setTitle("Blood Finder");
 
 
         btnNext = (Button) findViewById(R.id.btnNext);
@@ -57,7 +62,7 @@ public class NavigationDrawer extends AppCompatActivity
         toolbar.setNavigationIcon(R.drawable.person);
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -106,27 +111,42 @@ public class NavigationDrawer extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+
+
         if (id == R.id.s_needer) {
-            // Handle the camera action
+            Intent intent=new Intent(NavigationDrawer.this,needer.class);
+            startActivity(intent);
         } else if (id == R.id.s_donner) {
+            Intent intent=new Intent(NavigationDrawer.this,donner_option.class);
+            startActivity(intent);
 
         } else if (id == R.id.why_donate) {
+            Intent intent=new Intent(NavigationDrawer.this,WhyDonate.class);
+            startActivity(intent);
 
         } else if (id == R.id.who) {
+            Intent intent=new Intent(NavigationDrawer.this,WhoDonate.class);
+            startActivity(intent);
 
         } else if (id == R.id.share) {
+            Intent intent=new Intent(NavigationDrawer.this,Share.class);
+            startActivity(intent);
 
         } else if (id == R.id.contact) {
+            Intent intent=new Intent(NavigationDrawer.this,Contact.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.faq) {
+            Intent intent=new Intent(NavigationDrawer.this,Faq.class);
+            startActivity(intent);
 
         }
         else if (id == R.id.abt) {
+            Intent intent=new Intent(NavigationDrawer.this,About.class);
+            startActivity(intent);
 
         }
-
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

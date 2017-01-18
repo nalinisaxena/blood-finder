@@ -17,8 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".donner" />
         <activity android:name=".donner_login" />
         <activity android:name=".donner_option" />
@@ -30,7 +28,13 @@
         <activity
             android:name=".NavigationDrawer"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WhyDonate" />
+        <activity android:name=".WhoDonate" />
+        <activity android:name=".Share" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Faq" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>
