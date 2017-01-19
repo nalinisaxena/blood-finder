@@ -17,8 +17,8 @@
             android:text="Register"
             android:textSize="20sp"
             android:textAllCaps="false"
-            android:backgroundTint="#DB160D"
-            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#DB160D"
             android:layout_weight="1"
             />
 
@@ -31,8 +31,8 @@
             android:text="Login"
             android:textSize="20dp"
             android:layout_weight="1"
-            android:backgroundTint="#DB160D"
-            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#DB160D"
             android:textAllCaps="false"
 
             />

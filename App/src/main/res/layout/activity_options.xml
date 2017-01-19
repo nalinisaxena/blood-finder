@@ -19,17 +19,17 @@
             android:text="Donner"
             android:layout_weight="1"
 
-            android:backgroundTint="#DB160D"
+            android:backgroundTint="#FFFFFF"
             android:textSize="20sp"
-            android:textColor="#FFFFFF"
+            android:textColor="#DB160D"
             android:textAllCaps="false"
             />
 
         <Button android:id="@+id/btnneeder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#DB160D"
-            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#DB160D"
             android:layout_weight="1"
             android:textSize="20sp"
             android:text="Needer"
